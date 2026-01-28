@@ -43,3 +43,15 @@ Phase 2 — AI Intelligence
 This wasn’t about building a chatbot.
 
 It was about exploring how AI fits into real analytics workflows — the way modern tech teams are beginning to use it.
+
+▶️ How to Run Locally
+
+pip install -r requirements.txt
+python -m streamlit run code/dashboard.py
+
+Create a secrets file:
+code/.streamlit/secrets.toml
+
+OPENAI_API_KEY="sk-proj-...(API_KEY)"
+OPENAI_PROJECT_ID="proj-..."
+
