@@ -31,7 +31,7 @@ Phase 2 — AI Intelligence
 	•	Publicly deployed and interactive
 
   ✨ Key Highlights
-	•	📊 Dynamic analytics dashboard
+	•	📊 Dynamic analytics dashboard\n
 	•	🤖 Grounded AI explanations (no raw data sent)
 	•	🧠 Root-cause style insights, not generic text
 	•	🔁 Model fallback for reliability
