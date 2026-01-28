@@ -1,6 +1,6 @@
 🎬 AI-Powered Streaming Analytics Dashboard
 
-🔗 Live demo: [Add your Streamlit link]
+🔗 Live demo: https://ainetflixdashboard-k3jhyneadrjr6ofygd7xom.streamlit.app
 
 An end-to-end project demonstrating how AI can act as an intelligence layer on top of analytics systems — helping users understand what changed and why, directly inside a dashboard.
 
