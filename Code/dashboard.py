@@ -174,9 +174,8 @@ cur = evidence.get("current_period", {})
 prev = evidence.get("previous_period", {})
 
 
-# -----------------------------
 # Header (logo + title)
-# -----------------------------
+
 assets_dir = Path(__file__).resolve().parent.parent / "assets"
 logo_path = assets_dir / "netflix_logo.png"
 
