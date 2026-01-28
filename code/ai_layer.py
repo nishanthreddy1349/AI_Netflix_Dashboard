@@ -2,11 +2,12 @@ import json
 import streamlit as st
 from openai import OpenAI
 
-def _get_client() -> OpenAI:
-    api_key = st.secrets.get("OPENAI_API_KEY")
-    if not api_key:
-        raise ValueError("OPENAI_API_KEY not found. Add it to Code/.streamlit/secrets.toml")
-    return OpenAI(api_key=api_key)
+def _get_client():
+    return OpenAI(
+        api_key=st.secrets["OPENAI_API_KEY"],
+        project=st.secrets["OPENAI_PROJECT_ID"],
+    )
+st.write("Project ID loaded:", st.secrets.get("OPENAI_PROJECT_ID"))
 
 def _call_with_fallback(client: OpenAI, models: list[str], messages: list[dict], temperature: float = 0.2) -> tuple[str, str]:
     """

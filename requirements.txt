@@ -1,6 +1,6 @@
 streamlit
 pandas
 plotly
-openai
+openai>=1.30.0
 numpy
 python-dateutil
